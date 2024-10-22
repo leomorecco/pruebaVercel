@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #5d82ac;
+  padding: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.menu a.active {
+  border-bottom: 2px solid #fff;
+}
